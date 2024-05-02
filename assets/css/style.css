@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    font-family: "Manrope";
+    font-optical-sizing: auto;
+    background-color: #D862BC;
+}
+
+.container{
+    max-width: 1110px;
+    padding-inline: 16px;
+    margin-inline: auto;
+}
+
+.todoCard{
+    background-color: #E59BE9;
+    padding: 14px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.addToDoForm{
+   margin-block: 24px;
+}
+.btns{
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
